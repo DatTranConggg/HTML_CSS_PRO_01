@@ -10,3 +10,38 @@ body {
     font-size: 1.6rem;
     font-family: "Poppins";
 }
+
+/* COMMON */
+.content {
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+a { 
+    text-decoration: none;
+}
+/* HEADER  */
+.header {
+    background-color: #E6F0FF;
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul a {
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    color: #4F5361;
+}
+
+.navbar .actions {
+    margin-left: auto;
+}
