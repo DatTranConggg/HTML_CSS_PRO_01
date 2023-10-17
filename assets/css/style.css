@@ -238,3 +238,69 @@ a {
     color: #FFF;
     min-width: 170px;
 }
+
+/* FEATURE */
+.featured {
+    margin-top: 230px;
+}
+.featured .sub-title {
+    color: #000339;
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 1; 
+}
+.featured .row {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.featured .desc {
+    color: #5A6473;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.87; 
+}
+.featured .link {
+    display: flex;
+    align-items: center;
+    color: #0689FF;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.featured .link .arrow {
+    margin-left: 8px;
+}
+.featured .list {
+    display: flex;
+    /* Tao khoang cach giua cac item  */
+    gap: 30px;
+    margin-top: 70px;
+}
+.featured .item {
+    /* Chia deu width */
+    flex: 1;
+}
+.featured .item .thumb {
+    height: 227px;
+    /* Giua dung ti le cua hinh  */
+    object-fit: cover;
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.featured .body {
+    padding: 17px 20px 24px;
+}
+.featured .item .title {
+    margin-top: 17px;
+    color: #000339;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1;
+}
+.featured .item .desc {
+    color: #A3A6AB;
+    font-size: 1.4rem;
+    font-weight: 500;
+}

@@ -11,4 +11,6 @@
 - Hai Button hoặc hai gì đó đi cùng nhau thì nên bọc lại bằng thẻ DIV
 - Khoảng cách ở cách thẻ a nên dùng padding vì tạo UX thân thiện hơn, dễ bấm hơn.
 - Dùng Padding để tạo chiều cao của nút.
-- Đặt biến CSS cho màu chủ đạo
+- Đặt biến CSS cho màu chủ đạo.
+- Ảnh chụp nên chọn nhiều ảnh với kích thước khác nhau.
+- 
