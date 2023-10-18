@@ -13,4 +13,7 @@
 - Dùng Padding để tạo chiều cao của nút.
 - Đặt biến CSS cho màu chủ đạo.
 - Ảnh chụp nên chọn nhiều ảnh với kích thước khác nhau.
-- 
+- Sử dụng biết để reuse trong css: -webkit-line-clamp: var(--line-clamp, 2);
+- Dịch chuyển trục X 50% của chính nó:  transform: translateX(-50%); 
+- Tạo khoảng cách giữa các flex_item : gap: x;
+- Giữ đúng tỉ lệ hình ảnh: width 100% & object-fit: cover;
