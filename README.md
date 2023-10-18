@@ -17,3 +17,5 @@
 - Dịch chuyển trục X 50% của chính nó:  transform: translateX(-50%); 
 - Tạo khoảng cách giữa các flex_item : gap: x;
 - Giữ đúng tỉ lệ hình ảnh: width 100% & object-fit: cover;
+- Thẻ cha có display flex, thẻ con có thể đặt được width, height
+
