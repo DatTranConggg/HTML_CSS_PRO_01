@@ -13,6 +13,7 @@
 
 /* Tablet & Mobile */
 @media screen and (max-width: 991px) {
+    /* HEADER  */
     .navbar ul {
         display: none;
     }
@@ -62,6 +63,27 @@
     }
     .menu-checkbox:checked ~ .menu-drawer {
         transform: translateX(0);
+    }
+    /* HERO  */
+    .hero-img {
+        display: none;
+    }
+    .hero .info {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .clients .images img {
+        width: 100px;
+    }
+    .guide-item {
+        margin: 0;
+    }
+    .list-guide {
+        justify-content: space-around;
+    }
+    .featured .list {
+        grid-template-columns: 1fr 1fr;
     }
 }
 
